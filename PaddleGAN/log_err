@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "train.py", line 89, in <module>
+    train(cfg)
+  File "train.py", line 32, in train
+    a_reader, b_reader, a_reader_test, b_reader_test, batch_num = reader.make_data(
+  File "/home/paddle/Desktop/Baidu_AI/PaddleGAN/data_reader.py", line 428, in make_data
+    drop_last=self.cfg.drop_last)
+  File "/home/paddle/Desktop/Baidu_AI/PaddleGAN/data_reader.py", line 70, in __init__
+    self.lines = open(self.list_filename).readlines()
+FileNotFoundError: [Errno 2] No such file or directory: './data/cityscapes/trainA.txt'

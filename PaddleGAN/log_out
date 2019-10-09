@@ -1,0 +1,33 @@
+-----------  Configuration Arguments -----------
+batch_size: 1
+crop_size: 256
+crop_type: Random
+d_base_dims: 64
+d_nlayers: 3
+data_dir: ./data
+dataset: cityscapes
+drop_last: False
+dropout: False
+epoch: 200
+g_base_dims: 32
+gan_mode: vanilla
+init_model: None
+lambda_L1: 100.0
+learning_rate: 0.0002
+load_size: 286
+model_net: CycleGAN
+net_D: basic
+net_G: resnet_9block
+norm_type: batch_norm
+num_discriminator_time: 1
+num_generator_time: 1
+output: ./output
+print_freq: 10
+profile: False
+run_test: True
+save_checkpoints: True
+shuffle: True
+test_list: None
+train_list: None
+use_gpu: True
+------------------------------------------------
